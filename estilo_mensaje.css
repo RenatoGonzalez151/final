@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Estilo para el mensaje de formulario enviado */
 body {
     background: linear-gradient(to right, #ccffff, #99ccff);
@@ -24,3 +25,31 @@ h1 {
 p {
     color: #666; /* Color de texto gris */
 }
+=======
+/* Estilo para el mensaje de formulario enviado */
+body {
+    background: linear-gradient(to right, #ccffff, #99ccff);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mensaje-container {
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333; /* Color de texto oscuro */
+}
+
+p {
+    color: #666; /* Color de texto gris */
+}
+>>>>>>> 5804e7756874b99bcb6bef630729e42c05620393
