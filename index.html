@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERREMARKET - Venta de Artículos de Aseo</title>
+    <link rel="stylesheet" href="estilo_principal.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>ERREMARKET - Venta de Artículos de Aseo</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#quienes-somos">Quiénes Somos</a> |
+        <a href="#contacto">Contacto</a> |
+        <a href="#otra">Otra</a>
+    </nav>
+
+    <section id="home">
+        <h2>Inicio</h2>
+        <p>Bienvenido a ERREMARKET, tu tienda online de confianza para comprar productos de aseo de calidad.</p>
+    </section>
+
+    <section id="quienes-somos">
+        <h2>Quiénes Somos</h2>
+        <p>ERREMARKET es una empresa dedicada a ofrecer productos de aseo para el hogar y empresas.</p>
+    </section>
+
+    <section id="productos">
+        <h2>Productos</h2>
+        <table class="productos-table">
+            <tr>
+                <th>Producto</th>
+                <th>Imagen</th>
+                <th>Precio (CLP)</th>
+            </tr>
+            <tr>
+                <td>Lavaloza</td>
+                <td><img class="producto-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGxhnUuWwcVQJlsYMy752QZn1O_KUlb2TI-w&s" alt="Lavaloza"></td>
+                <td>$990</td>
+            </tr>
+            <tr>
+                <td>Detergente</td>
+                <td><img class="producto-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcT6RXGtn9cbetiKanPGHPyBJUCdApAgYERQ&s" alt="Detergente"></td>
+                <td>$1350</td>
+            </tr>
+            <tr>
+                <td>Líquido Desinfectante</td>
+                <td><img class="producto-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa3nIewa9YvHT8i9ZdBHYTV1n5T04wSjYANQ&s" alt="Líquido Desinfectante"></td>
+                <td>$750</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Estamos ubicados en La Granja. Contáctanos a través del siguiente formulario:</p>
+        <form action="mensaje.html" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" required></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <section id="otra">
+        <h2>Otra</h2>
+        <p>Contamos con.</p>
+        <ul>
+            <li>Entrega a domicilio.</li>
+            <li>Descuentos especiales para clientes frecuentes.</li>
+            <li>Productos ecológicos disponibles.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Derechos Reservados &copy; ERREMARKET</p>
+    </footer>
+</div>
+
+</body>
+</html>
