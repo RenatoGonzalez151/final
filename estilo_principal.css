@@ -1,0 +1,47 @@
+/* Estilo de fondo en una escala de celestes */
+body {
+    background: linear-gradient(to right, #ccffff, #99ccff); /* Fondo en una escala de celestes */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Añade espacio alrededor del contenido */
+    background-color: #f2f2f2; /* Fondo blanco perla */
+    border-radius: 10px; /* Agrega bordes redondeados al contenedor */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Agrega una sombra al contenedor */
+}
+
+/* Estilo para la tabla de productos */
+.productos-table {
+    width: 100%; /* Ancho total de la tabla */
+    border-collapse: collapse; /* Combina los bordes de la tabla */
+    margin-top: 20px; /* Añade espacio superior a la tabla */
+    border: 3px solid #66ccff; /* Borde sólido celeste para la tabla */
+    border-radius: 10px; /* Agrega bordes redondeados a la tabla */
+}
+
+.productos-table th,
+.productos-table td {
+    border: 1px solid #66ccff; /* Borde celeste para las celdas de la tabla */
+    padding: 8px; /* Añade relleno a las celdas de la tabla */
+    text-align: center; /* Centra el texto dentro de las celdas */
+}
+
+.productos-table th {
+    background-color: #f2f2f2; /* Fondo gris claro para las celdas de encabezado */
+}
+
+/* Estilo para las imágenes de los productos */
+.producto-img {
+    max-width: 100px; /* Ancho máximo de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+/* Estilo para centrar el título */
+#productos h2 {
+    text-align: center; /* Centra el texto */
+}
